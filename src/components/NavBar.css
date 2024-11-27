@@ -1,0 +1,40 @@
+.Header {
+  font-size: 30px;
+  font-weight: bold;
+  color: #212221;
+  text-align: center;
+  margin: 10px 0;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navBar {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center-align items horizontally */
+  padding: 10px 0; /* Add padding for better appearance */
+  gap: 20px; /* Space between items */
+  font-family: Arial, sans-serif;
+}
+
+.navBar th {
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  list-style: none;
+  padding: 10px 30px; /* Adjust padding for uniform spacing */
+}
+
+.navBar th a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* White text */
+}
+
+
+
+.navBar th:hover {
+  background-color: #3c413c; /* Darker background on hover */
+}
