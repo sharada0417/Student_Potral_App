@@ -1,6 +1,7 @@
 function StudentDetails(){
     return(
         <>
+        <h1>hi</h1>
         </>
     );
 }

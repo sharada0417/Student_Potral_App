@@ -1,0 +1,13 @@
+/* Footer styles */
+.container {
+    width: 100%; /* Full width of the screen */
+    background-color: black; /* Footer background */
+    color: white; /* Text color */
+    text-align: center; /* Align text to the center */
+    padding: 10px 0; /* Vertical spacing inside the footer */
+    font-family: Arial, sans-serif; /* Clean font */
+    font-size: 14px; /* Adjust font size */
+    position: relative; /* Positioned relative to the page flow */
+    margin-bottom: 1000; /* No bottom margin, adjust if needed */
+  }
+  
