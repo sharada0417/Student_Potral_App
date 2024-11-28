@@ -36,7 +36,7 @@ function Home(){
             </div>
             </div>
             <div>
-                <p className='lasttext'>Please log in to continue Login</p>
+                <p className='lasttext'>please log in to continue  Login</p>
             </div>
             <div className='end'>
             </div>

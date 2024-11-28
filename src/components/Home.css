@@ -2,10 +2,10 @@
     margin-top: 20px; /* Adds spacing at the top */
     display: flex; /* Flexbox for alignment */
     justify-content: center; /* Centers divs horizontally */
-    gap: 10px;
-    margin-bottom: 10px; /* Space between divs */
+    gap: 20px; /* Increased gap between divs */
+    margin-bottom: 10px; /* Added more space between divs */
 }
-  
+
 .card1,
 .card2,
 .card3,
@@ -14,33 +14,53 @@
     width: 300px; /* Width for the divs */
     height: 300px; /* Height for the divs */
     border: 1px solid gray; /* Optional border for visibility */
+    display: flex; /* Centers the content */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a soft effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
-.end {
-    margin-top: 30px;  /* Adds spacing from the top */
-    height: 30px;  /* Sets the height of the element */
+/* Hover effect to scale up the card and show shadow */
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
+/* Styling for the icons */
 .log1,
 .log2,
 .log3,
 .log4 {
     height: 105px;
     width: 105px;
-    margin-left: 110px;
-    margin-top: 50px;
+    margin-bottom: 20px; /* Adjusted margin for better vertical centering */
 }
 
+/* Styling for the text */
 .text1,
 .text2,
 .text3,
-.text4{
-    margin-left: 92px;
-    font-size: 19px;
+.text4 {
+    font-size: 19px; /* Font size for text */
+    text-align: center; /* Center-align the text */
+    font-family: Arial, sans-serif; /* Clean font */
 }
 
+/* Styling for the bottom space */
+.end {
+    margin-top: 20px; /* Adds spacing from the top */
+    height: 30px; /* Sets the height of the element */
+}
+
+/* Styling for the last text */
 .lasttext {
-    font-size: 15px; /* Adjust font size */
+    font-size: 20px; /* Adjust font size */
     color: #333; /* Dark text color */
     text-align: center; /* Center-align the text */
     margin-top: 20px; /* Add space at the top */
