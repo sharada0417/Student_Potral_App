@@ -26,9 +26,9 @@ function StudentDetails(){
             <div>
             <p>
                 Font Size :
-                <button onClick={()=>changeFontSize("small")} >S</button>
-                <button onClick={()=>changeFontSize("medium")}>M</button>
-                <button onClick={()=>changeFontSize("large")}>L</button>
+                <button onClick={()=>changeFontSize("small")} variant="primary">S</button>
+                <button onClick={()=>changeFontSize("medium")} variant="success">M</button>
+                <button onClick={()=>changeFontSize("large")} variant="warning">L</button>
             </p>
             </div>
             <hr/>

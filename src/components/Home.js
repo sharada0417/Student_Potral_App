@@ -4,8 +4,7 @@ import { CgStopwatch } from "react-icons/cg";
 import { CgSlack } from "react-icons/cg";
 import { FaRankingStar } from "react-icons/fa6";
 import { FaCalculator } from "react-icons/fa";
-import { Link } from 'react-router-dom';  // Keep Link for navigation
-import Login from './Login'; // Your Login component
+import { Link } from 'react-router-dom';  
 
 function Home(){
     return(

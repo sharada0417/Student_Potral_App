@@ -1,12 +1,14 @@
 .outerDiv
 {
-    background-color: #49bbf3;
-    align-content: baseline;
+    background-color: #3a3c3e;
+    align-content: space-around;
     height: fit-content;
     color: #fff;
-    margin: 5px auto;
+    margin: auto;
     padding: 10px;
     position: absolute;
+    margin-left: 250px;;
+
 }
 .leftDiv
 {

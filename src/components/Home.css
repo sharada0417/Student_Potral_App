@@ -1,9 +1,9 @@
 .container1 {
-    margin-top: 20px; /* Adds spacing at the top */
+    margin-top: 30px; /* Adds spacing at the top */
     display: flex; /* Flexbox for alignment */
     justify-content: center; /* Centers divs horizontally */
     gap: 20px; /* Increased gap between divs */
-    margin-bottom: 10px; /* Added more space between divs */
+    margin-bottom: 5px; /* Added more space between divs */
 }
 
 .card1,

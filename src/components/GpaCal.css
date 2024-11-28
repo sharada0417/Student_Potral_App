@@ -1,0 +1,73 @@
+.fulldiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    gap: 20px;
+}
+
+.studentlist {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+}
+
+.summery {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+}
+
+/* Center the form elements */
+/* Center the form elements */
+form {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center;    /* Center items horizontally */
+    gap: 5px;              /* Smaller spacing between elements */
+    margin: 0 auto;
+    padding: 5px;
+    width: 50%;             /* Adjust as needed */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Style the labels */
+form label {
+    font-size: 14px;
+    margin-bottom: 2px; /* Minimal space between label and input */
+    text-align: left;
+    width: 100%;        /* Ensure labels take full width */
+}
+
+/* Style the inputs */
+form input {
+    width: 100%; /* Full width input fields */
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Align the button */
+form button {
+    padding: 8px 16px;
+    background-color: #1d1f21; /* Bootstrap blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.end{
+    margin-top:90px;
+}
