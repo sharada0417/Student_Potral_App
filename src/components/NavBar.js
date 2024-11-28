@@ -6,6 +6,7 @@ import Course from './Course';
 import Ranking from './Ranking';
 import ContactUs from './ContactUs';
 import GpaCal from './GpaCal';
+import Login from './Login';
 
 function NavBar(){
     return(
@@ -27,6 +28,7 @@ function NavBar(){
             </tbody>
         </table>
         <Routes>
+            <Route path='/' element={<Login/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/stud' element={<StudentDetails/>}/>
             <Route path='/course' element={<Course/>}/>
