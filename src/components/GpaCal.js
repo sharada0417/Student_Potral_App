@@ -43,13 +43,20 @@ function GpaCal(){
         setStudents(students.filter((student) => student.registrationNumber != registrationNumber));
     }
     
-    const getGpaClass = (gpa) =>{
-        if(gpa >= 3.5) return 'first-class';
-        if(gpa >= 3.0) return 'second-upper';
-        if(gpa >= 2.5) return 'second-lawer';
+    const getGpaClass = (gpa) => {
+        if (gpa >= 3.5) return 'first-class';
+        if (gpa >= 3.0) return 'second-upper';
+        if (gpa >= 2.5) return 'second-lower'; 
         return 'ordinary-gpa';
-    }
-
+    };
+    
+    const getGrade = (gpa) => {
+        if (gpa >= 3.5) return 'first-class';
+        if (gpa >= 3.0) return 'second-upper';
+        if (gpa >= 2.5) return 'second-lower';
+        return 'ordinary-gpa';
+      };
+      
     const totalStudents = students.length;
     const averageAge = (students.reduce((sum,student) => sum + parseFloat(student.age || 0),0)/totalStudents).toFixed(2) || 0;
     const averageGpa = (students.reduce((sum,student) => sum + parseFloat(student.gpa || 0),0)/totalStudents).toFixed(2) || 0;
@@ -74,6 +81,15 @@ function GpaCal(){
                     name="name"
                     placeholder='Enter your name'
                     value={formData.name}
+                    onChange={handleChange}
+                />
+                <br/>
+                <label>Age:</label>
+                <input 
+                    type='number'
+                    name="age"
+                    placeholder='Enter your age'
+                    value={formData.age}
                     onChange={handleChange}
                 />
                 <br/>
@@ -113,7 +129,8 @@ function GpaCal(){
                 <p>Age: {student.age}</p>
                 <p>Course: {student.course}</p>
                 <p>
-                  GPA: <span className={getGpaClass(student.gpa)}>{student.gpa}</span>
+                     GPA: <span className={getGpaClass(student.gpa)}>{student.gpa}</span> 
+                    <span className={getGpaClass(student.gpa)}> ({getGrade(student.gpa)})</span>
                 </p>
                 <button onClick={() => handleDelete(student.registrationNumber)}>Delete</button>
                 <hr />
@@ -134,7 +151,6 @@ function GpaCal(){
         <div className='end'>
         <Footer/>
         </div>
-        
         </>
     );
 }

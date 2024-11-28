@@ -20,7 +20,7 @@ function NavBar(){
                     <th><Link to='/home'>Home</Link></th>
                     <th><Link to='/stud'>Student Details</Link></th>
                     <th><Link to='/course'>Courses</Link></th>
-                    <th><Link to='/gpacal'>Gpa Cal</Link></th>
+                    <th><Link to='/gpacal'>Gpa Class</Link></th>
                     <th><Link to='/ranking'>Ranking</Link></th>
                     <th><Link to='/contact'>Contact Us</Link></th>
                     </nav>
