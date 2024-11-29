@@ -28,7 +28,7 @@ form {
     display: flex;
     flex-direction: column; /* Arrange items vertically */
     align-items: center;    /* Center items horizontally */
-    gap: 5px;              /* Smaller spacing between elements */
+    gap: -5px;              /* Smaller spacing between elements */
     margin: 0 auto;
     padding: 5px;
     width: 50%;             /* Adjust as needed */
@@ -40,7 +40,8 @@ form label {
     font-size: 14px;
     margin-bottom: 2px; /* Minimal space between label and input */
     text-align: left;
-    width: 100%;        /* Ensure labels take full width */
+    width: 100%; 
+    margin-top: -10px;
 }
 
 /* Style the inputs */
@@ -74,13 +75,16 @@ form button:hover {
 
 .first-class {
     color: green;
-  }
-  .second-upper {
+}
+
+.second-upper {
     color: blue;
-  }
-  .second-lower {
+}
+
+.second-lower {
     color: orange;
-  }
-  .ordinary-gpa {
+}
+
+.ordinary-gpa {
     color: red;
-  }
+}
