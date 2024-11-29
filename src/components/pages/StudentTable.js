@@ -1,6 +1,6 @@
 import { useState } from "react";
-import './StudentTable.css'
-import Profile from "./Profile";
+import '../css/StudentTable.css'
+import Profile from "../Profile";
 
 
 function StudentTable(props){

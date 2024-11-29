@@ -1,5 +1,5 @@
-import './ContactUs.css'
-import Footer from './Footer';
+import '../css/ContactUs.css'
+import Footer from '../Footer';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { useState } from 'react';
 function ContactUs(){

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Footer from './Footer';
-import './GpaCal.css'
+import Footer from '../Footer';
+import '../css/GpaCal.css'
 function GpaCal(){
     const [students,setStudents] = useState([]);
     const [formData,setFormData] = useState({

@@ -1,5 +1,5 @@
-import Footer from './Footer';
-import './Home.css'
+import Footer from '../Footer';
+import '../css/Home.css'
 import { CgStopwatch } from "react-icons/cg";
 import { CgSlack } from "react-icons/cg";
 import { FaRankingStar } from "react-icons/fa6";

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import StudentTable from "./StudentTable"
+import StudentTable from "./pages/StudentTable"
 import { students } from "./data/studentsDb";
-import './StudentTable.css'
+import './css/StudentTable.css'
 import Footer from "./Footer";
 function StudentDetails(){
     const [fontSize,setFontSize] = useState("16px");

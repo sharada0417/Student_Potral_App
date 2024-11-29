@@ -1,6 +1,6 @@
 import React from "react";
-import { students } from "./data/studentsDb";
-import Footer from "./Footer";
+import { students } from "../data/studentsDb";
+import Footer from "../Footer";
 
 function Ranking() {
   // Sort students by GPA in descending order

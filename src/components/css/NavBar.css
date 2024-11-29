@@ -6,7 +6,7 @@
   text-align: center;
   font-family: 'Arial', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  background-color: rgb(87, 83, 81); /* Background color for the header */
+  background-color: rgb(147, 144, 143); /* Background color for the header */
   width: 100%; /* Ensure the header spans the full width */
   padding: 3px 0; /* Padding for top and bottom */
 }

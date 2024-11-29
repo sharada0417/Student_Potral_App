@@ -1,4 +1,4 @@
-import './StudentTable.css'
+import './css/StudentTable.css'
 function Profile(props){
     return(
         <>

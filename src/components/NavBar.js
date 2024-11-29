@@ -1,12 +1,12 @@
-import Home from './Home';
-import './NavBar.css'
+import Home from './pages/Home';
+import './css/NavBar.css'
 import { BrowserRouter as Router , Route , Link , NavLink , Routes } from 'react-router-dom';
 import StudentDetails from './StudentDetails';
-import Course from './Course';
-import Ranking from './Ranking';
-import ContactUs from './ContactUs';
-import GpaCal from './GpaCal';
-import Login from './Login';
+import Course from './pages/Course';
+import Ranking from './pages/Ranking';
+import ContactUs from './pages/ContactUs';
+import GpaCal from './pages/GpaCal';
+import Login from './pages/Login';
 
 function NavBar(){
     return(

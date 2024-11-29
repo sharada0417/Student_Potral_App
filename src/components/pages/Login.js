@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import './Login.css'
-import Footer from "./Footer";
+import '../css/Login.css'
+import Footer from "../Footer";
 
 function Login(){
     const navigate = useNavigate();

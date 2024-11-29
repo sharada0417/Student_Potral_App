@@ -1,7 +1,7 @@
 import React from "react";
-import Card from "./Card";
-import "./Course.css";
-import Footer from "./Footer";
+import Card from "../Card";
+import "../css/Course.css";
+import Footer from "../Footer";
 
 function Course() {
   // Manually added course data

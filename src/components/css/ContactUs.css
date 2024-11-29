@@ -5,7 +5,7 @@
     border: 1px solid #201e1e;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    height: 500px;
+    height: 600px;
     margin-top: 40px;
     margin-bottom: 40px;
     color: rgb(82, 72, 72);
@@ -50,7 +50,7 @@ form button {
     display: block;
     margin: 0 auto;
     padding: 15px 30px; /* Increased padding for a bigger button */
-    background-color: #28a745; /* Green button */
+    background-color: #303431; /* Green button */
     color: white;
     font-size: 18px; /* Increased font size */
     border-radius: 8px; /* Rounded button corners */
@@ -59,7 +59,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #0d0e0d; /* Darker green on hover */
 }
 
 /* Form container styling for spacing */

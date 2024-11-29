@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css";
+import "./css/Card.css";
 
 function Card({ courname, content, level, instructor, credits, description }) {
   return (
