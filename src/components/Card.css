@@ -1,0 +1,26 @@
+/* Styling for individual cards */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 0;
+    color: #666;
+  }
+  

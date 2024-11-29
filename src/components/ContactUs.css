@@ -38,7 +38,9 @@ form textarea {
 /* Specific colors for input and textarea */
 form input[type="text"],
 form input[type="email"],
+form input[type="number"],
 form textarea {
+    padding: 10px auto;
     background-color: #b7b4b2; /* Light blue background */
     color: #100f0f; /* Dark text */
 }
@@ -77,3 +79,4 @@ form button:hover {
     color: #333; /* Darker text */
     align-items: center;
 }
+
