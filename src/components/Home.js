@@ -32,14 +32,15 @@ function Home(){
             </div>
             <div className="card4">
             <FaCalculator className='log4'/>
-            <p className='text4'> GPA Calculator </p>
+            <p className='text4'> GPA Class </p>
             </div>
             </div>
-            <div>
-                <p className='lasttext'>Please log in to continue  <Link to='/login'>Login</Link></p> {/* Use Link for navigation */}
+            <div className='beforeend'>
+                <p className='lasttext'>Please log in to continue  <Link to='/'>Login</Link></p> {/* Use Link for navigation */}
             </div>
-            <div className='end'></div>
+            <div className='end'>
             <Footer/>
+            </div>
         </>
     );
 }

@@ -1,0 +1,67 @@
+/* Medium-sized flex container to center the content with a border */
+.my-fulldiv {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    flex-direction: column; /* Align elements vertically */
+    height: 500px; /* Set the height of the container to 80% of the viewport height */
+    width: 500px; /* Set the width to a fixed value (e.g., 500px) */
+    padding: 20px; /* Add space around the content */
+    border: 2px solid #0e0d0d; /* Adds a border around the container */
+    border-radius: 8px; /* Rounded corners for the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Title styling */
+.my-fulldiv h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px; /* Adds space below the title */
+}
+
+/* Form styling */
+.my-fulldiv form {
+    display: flex;
+    flex-direction: column; /* Align form elements in a column */
+    gap: 15px; /* Adds space between form fields */
+    width: 100%;
+}
+
+/* Input field and label styling */
+.my-fulldiv label {
+    font-size: 16px;
+    margin-bottom: 5px; /* Adds space between label and input */
+}
+
+.my-fulldiv input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #5e3636;
+    border-radius: 4px;
+}
+
+/* Button styling */
+.my-fulldiv button {
+    width: 40%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #292c2a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 80px; /* Increased button text size */
+}
+
+/* Button hover effect */
+.my-fulldiv button:hover {
+    background-color: #2c312c;
+}
+
+.my-outlier{
+    margin-top: 60px;
+    margin-left: 600px;
+    margin-bottom: 60px;
+}
+

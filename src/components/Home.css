@@ -53,9 +53,9 @@
 }
 
 /* Styling for the bottom space */
-.end {
-    margin-top: 20px; /* Adds spacing from the top */
-    height: 30px; /* Sets the height of the element */
+.end {/* Adds spacing from the top */
+    height: 30px;
+    margin-bottom: -100px; /* Sets the height of the element */
 }
 
 /* Styling for the last text */
@@ -65,4 +65,8 @@
     text-align: center; /* Center-align the text */
     margin-top: 20px; /* Add space at the top */
     font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+.beforeend{
+    margin-top: 70px;
 }

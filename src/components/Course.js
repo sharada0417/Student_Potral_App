@@ -34,8 +34,8 @@ function Course() {
     <>
       <div className="full">
         <div className="left">
-          <h1>Online Course</h1>
           <div className="cards-container">
+          <h1 className="subtitles">Online Course</h1>
             {leftCards.map((card, index) => (
               <Card
                 key={index}
@@ -50,8 +50,8 @@ function Course() {
           </div>
         </div>
         <div className="right">
-          <h1>Physical Course</h1>
           <div className="cards-container">
+          <h1 className="subtitles">Physical Course</h1>
             {rightCards.map((card, index) => (
               <Card
                 key={index}
@@ -69,7 +69,7 @@ function Course() {
       <div className="end">
 
       </div>
-      <div>
+      <div className="endof">
         <Footer />
       </div>
     </>

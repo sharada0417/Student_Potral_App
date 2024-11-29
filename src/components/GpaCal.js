@@ -64,7 +64,7 @@ function GpaCal(){
         <>
         <div className='fulldiv'>
             <div className='studentlist'>
-            <h2><center>Student List</center></h2>
+            <h2 ><center>Student List</center></h2>
             <form onSubmit={handleSubmit}>
                 <label>Registration number: </label>
                 <input 

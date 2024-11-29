@@ -11,7 +11,9 @@ import Login from './Login';
 function NavBar(){
     return(
         <>
+        <div className='Header'>
         <p className='Header'>Student Potral</p>
+        </div>
         <Router>
         <table className="navBar">
             <tbody>
