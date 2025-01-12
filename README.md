@@ -90,7 +90,7 @@ This app features the following pages:
 
 Here’s the basic structure of the project:
 
-``````````````````````````````````
+```
 |---css
 |   |-- Card.css
 |   |-- Contactus.css
@@ -120,7 +120,7 @@ Here’s the basic structure of the project:
 |---- Profile.js
 |---- StudentDetails.js
 
-````````````````````````
+```
 
 
 ---
