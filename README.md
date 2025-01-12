@@ -119,6 +119,9 @@ Here’s the basic structure of the project:
 |---- NavBar.js
 |---- Profile.js
 |---- StudentDetails.js
+|---- App.js
+|---- App.css
+|---- index.js
 
 ```
 
